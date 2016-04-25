@@ -20,3 +20,7 @@
 1. Found angular CDN
 1. Tested it with {{1+2}} in the body tag
 1. Added ng-app to html tag in index.html
+
+##Add Input
+1. Copy and paste from bootstrap horizontal form, edit a wee bit
+1. Instead of having a form with class form-horizontal, class is on a div
