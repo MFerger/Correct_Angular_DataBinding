@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html ng-app lang="en">
+
 <head>
   <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <title>Angular Playground</title>
 </head>
+
 <body>
-  {{1+2}}
-<h1>Things are happening!</h1>
+  <div class="container">
+    <h1 class='page-header'>Hello {{yourName}}!</h1>
+    <div class='form-horizontal'>
+      <div class='form-group'>
+        <label class='col-sm-2 control-label'>Name</label>
+        <div class='col-sm-5'>
+          <input type="text" class='form-control'>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
